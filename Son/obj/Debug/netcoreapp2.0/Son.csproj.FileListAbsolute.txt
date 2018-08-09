@@ -14,9 +14,9 @@ C:\Users\lopch\OneDrive\Máy tính\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\
 C:\Users\lopch\OneDrive\Máy tính\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.runtimeconfig.dev.json
 C:\Users\lopch\OneDrive\Máy tính\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.dll
 C:\Users\lopch\OneDrive\Máy tính\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.pdb
-C:\Users\lopch\OneDrive\Máy tính\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.csprojAssemblyReference.cache
 C:\Users\lopch\OneDrive\Máy tính\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.csproj.CoreCompileInputs.cache
 C:\Users\lopch\OneDrive\Máy tính\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.AssemblyInfoInputs.cache
 C:\Users\lopch\OneDrive\Máy tính\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.AssemblyInfo.cs
 C:\Users\lopch\OneDrive\Máy tính\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.dll
 C:\Users\lopch\OneDrive\Máy tính\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.pdb
+C:\Users\lopch\OneDrive\Máy tính\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.csprojAssemblyReference.cache

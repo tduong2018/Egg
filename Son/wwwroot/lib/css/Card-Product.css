@@ -1,0 +1,11 @@
+﻿.Button-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    display: none;
+}
+.card:hover .Button-card {
+    display: block;
+    box-shadow: 1.5px 1px #80938d;
+}

@@ -11,25 +11,30 @@
 
 
 <!--Dưỡng Here-->
-
-<div class="card" style="width: 200px" data-toggle="tooltip" title="áo sơ mi nữ trắng thanh lịch">
-    <a href="#"><img class="card-img-top" src="~/Images/img-002.jpg" /></a>
-    <div class="card-body bg-light">
-        <a class="card-text" style="text-decoration-line: none;" href="#">áo sơ mi nữ trắng thanh lịch</a><br />
-        <div>
-            <small class="fa fa-eye"> 500</small>
-            <div class="float-right">
-                <small class="fa fa-star text-warning"></small>
-                <small class="fa fa-star text-warning"></small>
-                <small class="fa fa-star text-warning"></small>
-                <small class="fa fa-star text-warning"></small>
-                <small class="fa fa-star-half-alt text-warning"></small>
+<div class="col-8 row">
+    @for (int i = 1; i < 10; i++)
+    {
+        <div class="card mr-4" style="width: 200px" data-toggle="tooltip" title="áo sơ mi nữ trắng thanh lịch">
+            <a href="#"><img class="card-img-top" src="~/Images/img-002.jpg" /></a>
+            <div class="card-body bg-light">
+                <a class="card-text" style="text-decoration-line: none;" href="#">áo sơ mi nữ trắng thanh lịch</a><br />
+                <div>
+                    <small class="fa fa-eye"> 500</small>
+                    <div class="float-right">
+                        <small class="fa fa-star text-warning"></small>
+                        <small class="fa fa-star text-warning"></small>
+                        <small class="fa fa-star text-warning"></small>
+                        <small class="fa fa-star text-warning"></small>
+                        <small class="fa fa-star-half-alt text-warning"></small>
+                    </div>
+                </div>
             </div>
+            <a class="Button-card float-right" style="" href="#">
+                <form class="text-center" style="margin-top: 14.3rem;">
+                    <span class="btn btn-warning float-right"><i class="fa fa-shopping-cart"></i></span>
+                </form>
+            </a>
         </div>
-    </div>
-    <a class="Button-card float-right" style="" href="#">
-        <form class="text-center" style="margin-top: 14.3rem;">
-            <span class="btn btn-warning float-right"><i class="fa fa-shopping-cart"></i></span>
-        </form>
-    </a>
+    }
 </div>
+

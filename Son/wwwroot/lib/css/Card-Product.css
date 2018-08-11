@@ -2,10 +2,19 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.25);
     display: none;
 }
 .card:hover .Button-card {
     display: block;
     box-shadow: 1.5px 1px #80938d;
+}
+.carousel-Products {
+    width: 80%;
+    height: 400px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+.carousel-Products ul{
+    position: static;
 }

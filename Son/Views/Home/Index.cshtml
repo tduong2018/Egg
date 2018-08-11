@@ -11,30 +11,79 @@
 
 
 <!--Dưỡng Here-->
-<div class="col-8 row">
-    @for (int i = 1; i < 10; i++)
-    {
-        <div class="card mr-4" style="width: 200px" data-toggle="tooltip" title="áo sơ mi nữ trắng thanh lịch">
-            <a href="#"><img class="card-img-top" src="~/Images/img-002.jpg" /></a>
-            <div class="card-body bg-light">
-                <a class="card-text" style="text-decoration-line: none;" href="#">áo sơ mi nữ trắng thanh lịch</a><br />
-                <div>
-                    <small class="fa fa-eye"> 500</small>
-                    <div class="float-right">
-                        <small class="fa fa-star text-warning"></small>
-                        <small class="fa fa-star text-warning"></small>
-                        <small class="fa fa-star text-warning"></small>
-                        <small class="fa fa-star text-warning"></small>
-                        <small class="fa fa-star-half-alt text-warning"></small>
+<div id="demo" class="col-7 carousel slide" data-ride="carousel">
+    <div class="carousel-inner bg-primary">
+        @for (int i = 0; i < 3; i++)
+        {
+            var s = "active";
+            if (i == 0)
+            {
+                <div class="carousel-item @s">
+                    <div class="row">
+                        @for (int j = 1; j < 7; j++)
+                        {
+                            <div class="col-md-2" data-toggle="tooltip" title="áo sơ mi nữ trắng thanh lịch">
+                                <div class="card">
+                                    <img class="card-img-top" src="~/Images/img-002.jpg" />
+                                    <div class="card-body bg-light">
+                                        <a class="card-text" style="text-decoration-line: none;" href="#">áo sơ mi nữ trắng thanh lịch</a><br />
+                                        <div>
+                                            <small class="fa fa-eye"> 500</small>
+                                            <div class="float-right">
+                                                <small class="fa fa-star text-warning"></small>
+                                                <small class="fa fa-star text-warning"></small>
+                                                <small class="fa fa-star text-warning"></small>
+                                                <small class="fa fa-star text-warning"></small>
+                                                <small class="fa fa-star-half-alt text-warning"></small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="Button-card" href="#">
+                                        <span class="btn btn-warning float-right" data-toggle="tooltip" title="Thêm vào giỏ hàng"><i class="fa fa-shopping-cart"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        }
                     </div>
                 </div>
+            }
+            <div class="carousel-item">
+                <div class="row">
+                    @for (int j = 1; j < 7; j++)
+                    {
+                        <div class="col-md-2" data-toggle="tooltip" title="áo sơ mi nữ trắng thanh lịch">
+                            <div class="card">
+                                <img class="card-img-top" src="~/Images/img-002.jpg" />
+                                <div class="card-body bg-light">
+                                    <a class="card-text" style="text-decoration-line: none;" href="#">áo sơ mi nữ trắng thanh lịch</a><br />
+                                    <div>
+                                        <small class="fa fa-eye"> 500</small>
+                                        <div class="float-right">
+                                            <small class="fa fa-star text-warning"></small>
+                                            <small class="fa fa-star text-warning"></small>
+                                            <small class="fa fa-star text-warning"></small>
+                                            <small class="fa fa-star text-warning"></small>
+                                            <small class="fa fa-star-half-alt text-warning"></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="Button-card" href="#">
+                                    <span class="btn btn-warning float-right" data-toggle="tooltip" title="Thêm vào giỏ hàng"><i class="fa fa-shopping-cart"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
             </div>
-            <a class="Button-card float-right" style="" href="#">
-                <form class="text-center" style="margin-top: 14.3rem;">
-                    <span class="btn btn-warning float-right"><i class="fa fa-shopping-cart"></i></span>
-                </form>
-            </a>
-        </div>
-    }
+        }
+        
+    </div>
+    <div class="display-4 bg-light">
+        <a class="text-dark float-left" href="#demo" data-slide="prev">
+            <i class="fa fa-chevron-circle-left nav-link"></i>
+        </a>
+        <a class="text-dark float-right" href="#demo" data-slide="next">
+            <i class="fa fa-chevron-circle-right nav-link"></i>
+        </a>
+    </div>
 </div>
-

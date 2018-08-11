@@ -3,7 +3,7 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/_Shared/_Layout.cshtml";
 }
-<div class="row">
+<div class="row bg-dark">
     <div class="col-sm"></div>
     <div class="col-sm-9">
 
@@ -13,8 +13,8 @@
         </div>
 
         <!--Dưỡng Here-->
-        <div class="">
-            <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="position-relative">
+            <div id="demo" class="carousel slide position-relative" data-ride="carousel">
                 <div class="carousel-inner">
                     @for (int i = 0; i < 3; i++)
                     {
@@ -81,12 +81,12 @@
                     }
                 </div>
             </div>
-            <div class="display-4 position-absolute">
-                <a class="text-dark float-left" href="#demo" data-slide="prev">
-                    <i class="fa fa-chevron-circle-left nav-link"></i>
+            <div class="pt-5" style="position: relative;">
+                <a class="float-left bg-white text-center" style="height: 25px; width: 25px; border-radius: 50%;" href="#demo" data-slide="next">
+                    <i class="fa fa-chevron-left"></i>
                 </a>
-                <a class="text-dark float-right bg-warning" href="#demo" data-slide="next">
-                    <i class="fa fa-chevron-circle-right nav-link"></i>
+                <a class="float-right bg-white text-center" style="height: 25px; width: 25px; border-radius: 50%;" href="#demo" data-slide="next">
+                    <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
         </div>

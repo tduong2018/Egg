@@ -6,5 +6,15 @@
 <!--Hearder-->
 @await Html.PartialAsync("Header");
 
-<!--Body-->
-@await Html.PartialAsync("CarouselProducts");
+<div class="row">
+    <div class="col-sm"></div>
+    <div class="col-sm-9">
+
+        <!--Catagory-->
+        @await Html.PartialAsync("Category")
+        <!--Body-->
+        @await Html.PartialAsync("CarouselProducts")
+
+    </div>
+    <div class="col-sm"></div>
+</div>

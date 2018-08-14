@@ -31,3 +31,14 @@ C:\Users\DuongT\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.Assembl
 C:\Users\DuongT\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.AssemblyInfo.cs
 C:\Users\DuongT\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.dll
 C:\Users\DuongT\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.pdb
+C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.deps.json
+C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.runtimeconfig.json
+C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.runtimeconfig.dev.json
+C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.dll
+C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.pdb
+C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.csproj.CoreCompileInputs.cache
+C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.AssemblyInfoInputs.cache
+C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.AssemblyInfo.cs
+C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.dll
+C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.pdb
+C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.csprojAssemblyReference.cache

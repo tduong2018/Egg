@@ -42,3 +42,14 @@ C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.Assembl
 C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.dll
 C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.pdb
 C:\Users\TaiHN1\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.csprojAssemblyReference.cache
+C:\Users\HauL\Desktop\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.deps.json
+C:\Users\HauL\Desktop\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.runtimeconfig.json
+C:\Users\HauL\Desktop\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.runtimeconfig.dev.json
+C:\Users\HauL\Desktop\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.dll
+C:\Users\HauL\Desktop\Son-Of-Team-C132\Son\bin\Debug\netcoreapp2.0\Son.pdb
+C:\Users\HauL\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.csprojAssemblyReference.cache
+C:\Users\HauL\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.csproj.CoreCompileInputs.cache
+C:\Users\HauL\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.AssemblyInfoInputs.cache
+C:\Users\HauL\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.AssemblyInfo.cs
+C:\Users\HauL\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.dll
+C:\Users\HauL\Desktop\Son-Of-Team-C132\Son\obj\Debug\netcoreapp2.0\Son.pdb

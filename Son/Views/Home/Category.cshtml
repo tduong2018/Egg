@@ -1,37 +1,41 @@
-﻿
-@{
-    ViewData["Title"] = "Category";
-}
+﻿@*Catagory*@
 
-<div class="row owl-carousel owl-theme">
-        @for (int j = 0; j < 15; j++)
-        {
-            <div class="card" style="width: 9%; height: 9%;" title="catagery">
-                <img class="card-img-top" src="~/Images/img-cat-phone.jpg" style="width: 100%" />
-                <div class="text-center">
-                    <div class="card-text small">Phone</div>
-                </div>
+<section class="regular slider">
+    @for (int j = 0; j < 5; j++)
+    {
+        <div class="card-category" title="catagery">
+            <img class="card-img-top" src="~/Images/img-cat-phone.jpg" style="" />
+            <div class="text-center">
+                <div class="font">Phone</div>
             </div>
-        }
-    </div>
-    <script>
-        $(document).ready(function () {
-            var owl = $('.owl-carousel');
-            owl.owlCarousel({
-                loop: true,
-                margin: 10,
-                navRewind: false,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 3
-                    },
-                    1000: {
-                        items: 5
-                    }
-                }
-            })
-        })
-    </script>
+        </div>
+    }
+    @for (int j = 0; j < 5; j++)
+    {
+        <div class="card-category" title="catagery">
+            <img class="card-img-top" src="~/Images/img-cat-speaker.jpg" style="width: 100%" />
+            <div class="text-center">
+                <div class="" style="font-size: 100%;">Phone</div>
+            </div>
+        </div>
+    }
+    @for (int j = 0; j < 10; j++)
+    {
+        <div class="card-category" title="catagery">
+            <img class="card-img-top" src="~/Images/img-cat-lap.jpg" style="width: 100%" />
+            <div class="text-center">
+                <div class="" style="font-size: 100%;">Phone</div>
+            </div>
+        </div>
+    }
+</section>
+<script type="text/javascript">
+    $(function () {
+        $(".regular").slick({
+            dots: true,
+            infinite: false,
+            slidesToShow: 12,
+            slidesToScroll: 6
+        });
+    });
+</script>
